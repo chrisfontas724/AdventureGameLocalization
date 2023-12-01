@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
+  m_Name: Adventure-Asset_zh-Hans
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: zh-Hans
+  m_SharedData: {fileID: 11400000, guid: c36ded4b382c04c1ea42ec36416c3742, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7873894539264
+    m_Localized: ea843c863ef38420185ba993c54178eb[SecurityRoomCompanyLogo_zh-Hans]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21337291612160
+    m_Localized: 17059590f387541d1be053489ce8f6d4[InfoBoard_zh-Hans]
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
