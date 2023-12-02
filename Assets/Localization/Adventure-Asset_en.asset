@@ -26,6 +26,18 @@ MonoBehaviour:
     m_Localized: df383688f53ed894e8fd0b4f14ddebb1[InfoBoard]
     m_Metadata:
       m_Items: []
+  - m_Id: 451674069000192
+    m_Localized: aadd163a1083b694cb476d64aa66c8a2[ScrollingText_0]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 452049815724032
+    m_Localized: aadd163a1083b694cb476d64aa66c8a2[ScrollingText_3]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457357946511360
+    m_Localized: bc4aad8b91ed0244d9a1478531141006[DNAinfo]
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

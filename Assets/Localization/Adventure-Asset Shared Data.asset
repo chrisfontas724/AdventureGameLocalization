@@ -23,6 +23,18 @@ MonoBehaviour:
     m_Key: InfoBoard
     m_Metadata:
       m_Items: []
+  - m_Id: 451674069000192
+    m_Key: ScrollingText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 452049815724032
+    m_Key: ScollingText2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457357946511360
+    m_Key: DNAinfo
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 6883692685380812827
@@ -46,6 +58,18 @@ MonoBehaviour:
           - ja
           - zh-Hans
         - m_KeyId: 21337291612160
+          m_TableCodes:
+          - zh-Hans
+          - en
+        - m_KeyId: 451674069000192
+          m_TableCodes:
+          - zh-Hans
+          - en
+        - m_KeyId: 452049815724032
+          m_TableCodes:
+          - en
+          - zh-Hans
+        - m_KeyId: 457357946511360
           m_TableCodes:
           - zh-Hans
           - en
