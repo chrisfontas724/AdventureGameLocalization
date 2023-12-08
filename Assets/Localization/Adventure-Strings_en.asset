@@ -79,6 +79,18 @@ MonoBehaviour:
     m_Localized: Fresh coffee! Only one coin!
     m_Metadata:
       m_Items: []
+  - m_Id: 2522159899467776
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2523980793634816
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2524195151929344
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

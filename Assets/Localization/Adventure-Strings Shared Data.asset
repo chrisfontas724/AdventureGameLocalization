@@ -75,6 +75,18 @@ MonoBehaviour:
     m_Key: fresh-coffee-only-one-coin
     m_Metadata:
       m_Items: []
+  - m_Id: 2522159899467776
+    m_Key: resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2523980793634816
+    m_Key: options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2524195151929344
+    m_Key: quit
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
