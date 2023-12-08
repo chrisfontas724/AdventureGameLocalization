@@ -63,11 +63,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2493159730831360
-    m_Localized: Hey Frank!
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2493248348086272
-    m_Localized: Go on through!
+    m_Localized: Hey Frank! Go on through!
     m_Metadata:
       m_Items: []
   - m_Id: 2493339905548288
