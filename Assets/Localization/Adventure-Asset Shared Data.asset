@@ -61,6 +61,7 @@ MonoBehaviour:
           m_TableCodes:
           - zh-Hans
           - en
+          - ja
         - m_KeyId: 451674069000192
           m_TableCodes:
           - zh-Hans
@@ -73,5 +74,6 @@ MonoBehaviour:
           m_TableCodes:
           - zh-Hans
           - en
+          - ja
         m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null

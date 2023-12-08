@@ -22,6 +22,14 @@ MonoBehaviour:
     m_Localized: c96b2c1346f7b40c195a0a42c6480639[SecurityRoomCompanyLogo_ja]
     m_Metadata:
       m_Items: []
+  - m_Id: 21337291612160
+    m_Localized: 685cca6054f444d38b8450363b9cbfad[InfoBoard_jp]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457357946511360
+    m_Localized: 196e93bc4e4ca407393ff2ba489e8a8e[DNAinfo_jp]
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

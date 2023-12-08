@@ -23,6 +23,18 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-ja
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 685cca6054f444d38b8450363b9cbfad
+    m_Address: InfoBoard_jp
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 196e93bc4e4ca407393ff2ba489e8a8e
+    m_Address: DNAinfo_jp
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 293c886cbcb45477fbd469026bfc1efb, type: 2}
   m_SchemaSet:
