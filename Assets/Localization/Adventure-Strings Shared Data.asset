@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Adventure-Strings Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Adventure-Strings
+  m_TableCollectionNameGuidString: 5f58c79b80e874ccbab7a54032ba4436
+  m_Entries:
+  - m_Id: 984544742203392
+    m_Key: get-lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 984645304836096
+    m_Key: access-denied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2490893502242816
+    m_Key: he-looks-pretty-trustworthy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2491096259092480
+    m_Key: oh-a-coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2491405589012480
+    m_Key: no-more-coins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2491600427016192
+    m_Key: i-doubt-this-is-a-clue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2491730576269312
+    m_Key: i-dont-want-another-fish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2491885148954624
+    m_Key: heres-your-coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2492023170916352
+    m_Key: fresh-coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2492117022662656
+    m_Key: the-bird-knocked-those-glasses-down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2492980596301824
+    m_Key: oh-some-glasses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2493159730831360
+    m_Key: hey-frank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2493248348086272
+    m_Key: go-on-through
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2493339905548288
+    m_Key: you-win
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2493592247459840
+    m_Key: hey-frank-you-shouldnt-go-through-without-the-bosses-coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2493741417881600
+    m_Key: fresh-coffee-only-one-coin
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6883692685380812824
+  references:
+    version: 2
+    RefIds:
+    - rid: 6883692685380812824
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1701411599946

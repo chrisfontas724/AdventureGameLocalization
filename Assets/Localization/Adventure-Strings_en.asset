@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Adventure-Strings_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 5f58c79b80e874ccbab7a54032ba4436, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 984544742203392
+    m_Localized: Get lost!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 984645304836096
+    m_Localized: ACCESS DENIED!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2490893502242816
+    m_Localized: He looks pretty trustworthy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2491096259092480
+    m_Localized: Oh! A coin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2491405589012480
+    m_Localized: No more coins...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2491600427016192
+    m_Localized: I doubt this is a clue...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2491730576269312
+    m_Localized: I don't want another fish.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2491885148954624
+    m_Localized: Here's your coffee!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2492023170916352
+    m_Localized: Fresh coffee!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2492117022662656
+    m_Localized: The bird knocked those glasses down.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2492980596301824
+    m_Localized: Oh some glasses!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2493159730831360
+    m_Localized: Hey Frank!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2493248348086272
+    m_Localized: Go on through!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2493339905548288
+    m_Localized: YOU WIN!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2493592247459840
+    m_Localized: "Hey Frank, you shouldn\u2019t go through without the boss\u2019s
+      coffee."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2493741417881600
+    m_Localized: Fresh coffee! Only one coin!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

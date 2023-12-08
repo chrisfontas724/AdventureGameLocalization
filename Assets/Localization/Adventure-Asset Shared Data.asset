@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Adventure-Asset Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Adventure-Asset
+  m_TableCollectionNameGuidString: c36ded4b382c04c1ea42ec36416c3742
+  m_Entries:
+  - m_Id: 7873894539264
+    m_Key: SecurityRoomCompanyLogo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21337291612160
+    m_Key: InfoBoard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451674069000192
+    m_Key: ScrollingText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 452049815724032
+    m_Key: ScollingText2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457357946511360
+    m_Key: DNAinfo
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items:
+    - rid: 6883692685380812827
+  m_KeyGenerator:
+    rid: 6883692685380812825
+  references:
+    version: 2
+    RefIds:
+    - rid: 6883692685380812825
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1701411627433
+    - rid: 6883692685380812827
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 7873894539264
+          m_TableCodes:
+          - en
+          - ja
+          - zh-Hans
+        - m_KeyId: 21337291612160
+          m_TableCodes:
+          - zh-Hans
+          - en
+        - m_KeyId: 451674069000192
+          m_TableCodes:
+          - zh-Hans
+          - en
+        - m_KeyId: 452049815724032
+          m_TableCodes:
+          - en
+          - zh-Hans
+        - m_KeyId: 457357946511360
+          m_TableCodes:
+          - zh-Hans
+          - en
+        m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
