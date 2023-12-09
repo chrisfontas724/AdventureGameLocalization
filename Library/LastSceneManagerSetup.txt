@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Unity Technologies/Adventure - Sample Game/Scenes/Persistent.unity
+- path: Assets/Unity Technologies/Adventure - Sample Game/Scenes/SecurityRoom.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

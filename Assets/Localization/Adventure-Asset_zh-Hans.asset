@@ -38,6 +38,14 @@ MonoBehaviour:
     m_Localized: 6976b3aa4c8b44831ac62d2326456341[DNAinfo_zh-Hans]
     m_Metadata:
       m_Items: []
+  - m_Id: 2825768383012864
+    m_Localized: c65e9b19dbaf84332b66c2e19a0d7e56[MarketCoffeeSignAlbedo_zh-Hans_0]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2844440220655616
+    m_Localized: abd80337cbfeb42f6a36eab030ed949b[MarketFishSignNeon_zh-Hans_0]
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

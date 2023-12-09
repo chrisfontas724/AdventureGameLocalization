@@ -35,6 +35,14 @@ MonoBehaviour:
     m_Key: DNAinfo
     m_Metadata:
       m_Items: []
+  - m_Id: 2825768383012864
+    m_Key: MarketCoffeeSign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2844440220655616
+    m_Key: MarketFishSignNeon
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 6883692685380812827
@@ -75,5 +83,13 @@ MonoBehaviour:
           - zh-Hans
           - en
           - ja
+        - m_KeyId: 2825768383012864
+          m_TableCodes:
+          - zh-Hans
+          - en
+        - m_KeyId: 2844440220655616
+          m_TableCodes:
+          - zh-Hans
+          - en
         m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
