@@ -30,6 +30,10 @@ MonoBehaviour:
     m_Localized: 196e93bc4e4ca407393ff2ba489e8a8e[DNAinfo_jp]
     m_Metadata:
       m_Items: []
+  - m_Id: 3475979387265024
+    m_Localized: f3ffdf31ef7de364d947cd316a035e82
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

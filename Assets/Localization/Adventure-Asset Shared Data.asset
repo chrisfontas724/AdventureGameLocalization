@@ -43,14 +43,30 @@ MonoBehaviour:
     m_Key: InfoBoard
     m_Metadata:
       m_Items: []
+  - m_Id: 3475979387265024
+    m_Key: signs
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 6883692685380812827
+    - rid: 6567893371650572290
   m_KeyGenerator:
     rid: 6883692685380812825
   references:
     version: 2
     RefIds:
+    - rid: 6567893371650572290
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 3475979387265024
+          m_TableCodes:
+          - zh-Hans
+          - en
+          - ja
+        m_TypeString: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
     - rid: 6883692685380812825
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
         asm: Unity.Localization}

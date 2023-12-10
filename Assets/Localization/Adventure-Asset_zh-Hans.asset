@@ -46,6 +46,10 @@ MonoBehaviour:
     m_Localized: abd80337cbfeb42f6a36eab030ed949b[MarketFishSignNeon_zh-Hans_0]
     m_Metadata:
       m_Items: []
+  - m_Id: 3475979387265024
+    m_Localized: 9157df6dfe0bebc4a860dac219c7dc00
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
