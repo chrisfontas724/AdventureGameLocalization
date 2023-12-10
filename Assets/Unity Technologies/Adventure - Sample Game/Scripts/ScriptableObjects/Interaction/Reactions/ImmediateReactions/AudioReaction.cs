@@ -11,6 +11,8 @@ public class AudioReaction : Reaction
     public AudioClip audioClip;         // The AudioClip to be played.
     public float delay;                 // How long after React is called before the clip plays.
 
+    public bool dontLocalize = false;
+
     private TextManager textManager;
 
     public override int Priority()
@@ -31,7 +33,12 @@ public class AudioReaction : Reaction
             volumeMultiplier = 100.0f;
 
         // TODO: This is where to swap out audio sources for localized versions.
-        AudioClip localizedClip = LocalizationSettings.AssetDatabase.GetLocalizedAsset<AudioClip>("Adventure-Asset", TextManager.currentSlug) ?? audioClip;
+
+        AudioClip localizedClip;
+        if (dontLocalize)
+            localizedClip = audioClip;
+        else 
+            localizedClip = LocalizationSettings.AssetDatabase.GetLocalizedAsset<AudioClip>("Adventure-Asset", TextManager.currentSlug) ?? audioClip;
 
         audioSource.volume *= volumeMultiplier;
         audioSource.clip = localizedClip;
