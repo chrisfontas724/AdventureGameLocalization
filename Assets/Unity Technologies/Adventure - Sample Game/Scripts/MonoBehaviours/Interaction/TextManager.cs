@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Localization.Settings;
+using UnityEngine.Localization;
 using System.Collections.Generic;
 
 // This class is used to manage the text that is
@@ -24,10 +25,28 @@ public class TextManager : MonoBehaviour
     public float additionalDisplayTime = 0.5f;      // The additional time that is added to the message is displayed for.
     public static string currentSlug;
 
+    private int minFontSize = 60; // Minimum font size
+    private int maxFontSize = 80; // Maximum font size
+
 
     private List<Instruction> instructions = new List<Instruction> ();
                                                     // Collection of instructions that are ordered by their startTime.
     private float clearTime;                        // The time at which there should no longer be any text on screen.
+
+    string GetLocale()
+    {
+        // Get the current locale
+        Locale currentLocale = LocalizationSettings.SelectedLocale;
+
+        // Get the language code
+        string languageCode = currentLocale.Identifier.Code;
+
+        // Print or use the language code as needed
+        Debug.Log("Current Language Code: " + languageCode);
+
+        return languageCode;
+    }
+
 
 
     private void Update ()
@@ -44,6 +63,8 @@ public class TextManager : MonoBehaviour
             text.text = local_text;
             text.color = instructions[0].textColor;
 
+            AdjustFontSize();
+
             // Then remove the instruction.
             instructions.RemoveAt (0);
         }
@@ -52,6 +73,32 @@ public class TextManager : MonoBehaviour
         {
             text.text = string.Empty;
         }
+    }
+
+    void AdjustFontSize()
+    {
+        string locale = GetLocale();
+        if (locale == "ja" && text.text.Length > 15)
+            maxFontSize = 60;
+        else
+            maxFontSize = 75;
+
+        Debug.Log("PREFERRED WIDTH: " + text.preferredWidth);
+        Debug.Log("FIRST SIZE: " + text.fontSize);
+
+        Debug.Log("MIN AND MAX: " + minFontSize + " , " + maxFontSize);
+        // Calculate normalized value based on the preferred width and maxFontSize
+        float normalizedValue = Mathf.Clamp01(text.preferredWidth / maxFontSize);
+
+        // Interpolate between minFontSize and maxFontSize based on the normalized value
+        int newSize = Mathf.RoundToInt(Mathf.Lerp(minFontSize, maxFontSize, normalizedValue));
+
+        Debug.Log("Normalized Value: " + normalizedValue);
+        Debug.Log("New Size: " + newSize);
+
+
+        // Apply the new font size to the Text component
+        text.fontSize = newSize;
     }
 
 

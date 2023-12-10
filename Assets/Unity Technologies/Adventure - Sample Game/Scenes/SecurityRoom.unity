@@ -349,7 +349,7 @@ MonoBehaviour:
   audioSource: {fileID: 905901659}
   audioClip: {fileID: 8300000, guid: ebdaadc1993914f48991efbeda5ed08e, type: 3}
   delay: 0
-  dontLocalize: 0
+  dontLocalize: 1
 --- !u!114 &294159636
 MonoBehaviour:
   m_ObjectHideFlags: 0
