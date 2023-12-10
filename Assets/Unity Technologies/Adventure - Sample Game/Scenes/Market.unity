@@ -1452,6 +1452,29 @@ MonoBehaviour:
   audioSource: {fileID: 803947869}
   audioClip: {fileID: 8300000, guid: 9fecb71afa4ed49c89d01dffd5c600a7, type: 3}
   delay: 0
+--- !u!1 &953234003 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011042193294, guid: 3651ed03b8d254a478d9747447d9f2f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1202301407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &953234004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953234003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffca30f9a5a646478859631aabffc47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterial: {fileID: 2100000, guid: 71e4cc976fb954d489e47c27ba9c6950, type: 2}
+  attributeName: _MainTex
+  chineseTexture: {fileID: 2800000, guid: 9157df6dfe0bebc4a860dac219c7dc00, type: 3}
+  japaneseTexture: {fileID: 2800000, guid: f3ffdf31ef7de364d947cd316a035e82, type: 3}
+  englishTexture: {fileID: 2800000, guid: 6446c889f3ca93e49808b98b30f164ec, type: 3}
 --- !u!114 &964840749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2003,6 +2026,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1202301413}
+    - targetCorrespondingSourceObject: {fileID: 1000011042193294, guid: 3651ed03b8d254a478d9747447d9f2f6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 953234004}
   m_SourcePrefab: {fileID: 100100000, guid: 3651ed03b8d254a478d9747447d9f2f6, type: 3}
 --- !u!1 &1202301408 stripped
 GameObject:
