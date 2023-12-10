@@ -65,6 +65,24 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-zh-Hans
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 898c885cee7affe4c9fe68f88a4c1f32
+    m_Address: ZH_male_hey-frank-go-on-through
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hans
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7f977422b3e0d3498d760b970f79b6a
+    m_Address: ZH_male_hey-frank-you-shouldnt-go-through-without-the-bosss-coffee
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hans
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 291283cfcd49b514ab7b2164db2b2bc6
+    m_Address: ZH_computer_access-denied
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hans
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 293c886cbcb45477fbd469026bfc1efb, type: 2}
   m_SchemaSet:

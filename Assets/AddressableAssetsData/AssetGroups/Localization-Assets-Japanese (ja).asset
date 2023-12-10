@@ -41,6 +41,30 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-ja
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3688b066e70011f4baea6890acbb214d
+    m_Address: JA_computer_access-denied
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcf6175a61ab3e44690e2dfac51c0fdf
+    m_Address: get-lost-ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 544da42835ab1f74791cc2762de755eb
+    m_Address: hey-frank-ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acc928badcae66d48a4589887173b261
+    m_Address: go-on-through-ja
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ja
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 293c886cbcb45477fbd469026bfc1efb, type: 2}
   m_SchemaSet:

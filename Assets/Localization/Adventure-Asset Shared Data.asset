@@ -51,6 +51,18 @@ MonoBehaviour:
     m_Key: get-lost
     m_Metadata:
       m_Items: []
+  - m_Id: 3505180215599104
+    m_Key: access-denied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3509591994261504
+    m_Key: hey-frank-you-shouldnt-go-through-without-the-bosss-coffee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3511951214764032
+    m_Key: hey-frank-go-on-through
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 6883692685380812827
@@ -78,6 +90,23 @@ MonoBehaviour:
         m_Entries:
         - m_KeyId: 3498841779200000
           m_TableCodes:
+          - zh-Hans
+          - en
+          - ja
+        - m_KeyId: 3505180215599104
+          m_TableCodes:
+          - en
+          - ja
+          - zh-Hans
+        - m_KeyId: 3509591994261504
+          m_TableCodes:
+          - en
+          - ja
+          - zh-Hans
+        - m_KeyId: 3511951214764032
+          m_TableCodes:
+          - en
+          - ja
           - zh-Hans
         m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null

@@ -59,6 +59,30 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f54714616402fcb4396f9aa083a9e154
+    m_Address: get-lost-en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25971f69bea4de041ba1d31aedf15562
+    m_Address: access-denied-en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6995401978dc1c74aa1f81fc1a20b1c0
+    m_Address: hey-frank-en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 634a3fbd2cdd17f4db2cb8aaa7b080c2
+    m_Address: go-on-through-en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 293c886cbcb45477fbd469026bfc1efb, type: 2}
   m_SchemaSet:
