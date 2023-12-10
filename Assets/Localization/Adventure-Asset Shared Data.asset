@@ -47,10 +47,15 @@ MonoBehaviour:
     m_Key: signs
     m_Metadata:
       m_Items: []
+  - m_Id: 3498841779200000
+    m_Key: get-lost
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 6883692685380812827
     - rid: 6567893371650572290
+    - rid: 6567893371650572293
   m_KeyGenerator:
     rid: 6883692685380812825
   references:
@@ -66,6 +71,15 @@ MonoBehaviour:
           - en
           - ja
         m_TypeString: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 6567893371650572293
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 3498841779200000
+          m_TableCodes:
+          - zh-Hans
+        m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
     - rid: 6883692685380812825
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
