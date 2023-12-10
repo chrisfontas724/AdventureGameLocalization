@@ -12,6 +12,8 @@ public abstract class Reaction : ScriptableObject
         SpecificInit ();
     }
 
+    public virtual int Priority()
+    { return -1; }
 
     // This function is virtual so that it can be overridden and used purely
     // for the needs of the inheriting class.

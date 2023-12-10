@@ -18,9 +18,16 @@ public class TextReaction : Reaction
         textManager = FindObjectOfType<TextManager> ();
     }
 
+    public override int Priority()
+    {
+        return 0;
+    }
+
 
     protected override void ImmediateReaction()
     {
+        string slug = StringTools.GenerateSlug(message);
+        TextManager.currentSlug = slug;
         textManager.DisplayMessage (message, textColor, delay);
     }
 }

@@ -22,6 +22,7 @@ public class TextManager : MonoBehaviour
     public Text text;                               // Reference to the Text component that will display the message.
     public float displayTimePerCharacter = 0.1f;    // The amount of time that each character in a message adds to the amount of time it is displayed for.
     public float additionalDisplayTime = 0.5f;      // The additional time that is added to the message is displayed for.
+    public static string currentSlug;
 
 
     private List<Instruction> instructions = new List<Instruction> ();
@@ -39,8 +40,7 @@ public class TextManager : MonoBehaviour
             string slug = StringTools.GenerateSlug(instructions[0].message);
             string local_text = LocalizationSettings.StringDatabase.GetLocalizedString("Adventure-Strings", slug);
 
-            Debug.Log("MESSAGE: " + instructions[0].message);
-
+            currentSlug = slug;
             text.text = local_text;
             text.color = instructions[0].textColor;
 

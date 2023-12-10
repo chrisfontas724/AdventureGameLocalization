@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using System;
+
 
 // This script acts as a collection for all the
 // individual Reactions that happen as a result
@@ -28,6 +30,8 @@ public class ReactionCollection : MonoBehaviour
 
     public void React ()
     {
+        System.Array.Sort(reactions, (x, y) => x.Priority().CompareTo(y.Priority()));
+
         // Go through all the Reactions and call their React function.
         for (int i = 0; i < reactions.Length; i++)
         {
