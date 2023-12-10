@@ -23,12 +23,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-zh-Hans
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 17059590f387541d1be053489ce8f6d4
-    m_Address: InfoBoard_zh-Hans
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-zh-Hans
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e8e8e56f7a72a42bd847a88b5efde2aa
     m_Address: ScrollingText_zh-Hans
     m_ReadOnly: 1
@@ -49,6 +43,12 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: abd80337cbfeb42f6a36eab030ed949b
     m_Address: MarketFishSignNeon_zh-Hans
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-Hans
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17059590f387541d1be053489ce8f6d4
+    m_Address: InfoBoard_zh-Hans
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-zh-Hans

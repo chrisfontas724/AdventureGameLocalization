@@ -19,10 +19,6 @@ MonoBehaviour:
     m_Key: SecurityRoomCompanyLogo
     m_Metadata:
       m_Items: []
-  - m_Id: 21337291612160
-    m_Key: InfoBoard
-    m_Metadata:
-      m_Items: []
   - m_Id: 451674069000192
     m_Key: ScrollingText
     m_Metadata:
@@ -41,6 +37,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 2844440220655616
     m_Key: MarketFishSignNeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3283547472257024
+    m_Key: InfoBoard
     m_Metadata:
       m_Items: []
   m_Metadata:
@@ -65,7 +65,7 @@ MonoBehaviour:
           - en
           - ja
           - zh-Hans
-        - m_KeyId: 21337291612160
+        - m_KeyId: 3283547472257024
           m_TableCodes:
           - zh-Hans
           - en

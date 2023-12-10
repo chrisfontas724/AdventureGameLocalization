@@ -466,7 +466,7 @@ SpriteRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 1043656357}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &670607137
+--- !u!114 &670607139
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -480,9 +480,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LocalizedAssetReference:
     m_TableReference:
-      m_TableCollectionName: 
+      m_TableCollectionName: GUID:c36ded4b382c04c1ea42ec36416c3742
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 3283547472257024
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -1018,6 +1018,10 @@ PrefabInstance:
       value: 4294967294
       objectReference: {fileID: 0}
     - target: {fileID: 1000011695197228, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011695197228, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -1096,6 +1100,10 @@ PrefabInstance:
     - target: {fileID: 1000013817075810, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014122436594, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1000014122436594, guid: 8902cc0c7910bcd4ab3ccacb67555809, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1337,15 +1345,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1000010485167684, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 670607137}
+      addedObject: {fileID: 670607139}
     - targetCorrespondingSourceObject: {fileID: 1000013773803010, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2123488595}
+      addedObject: {fileID: 2123488597}
     - targetCorrespondingSourceObject: {fileID: 1000012855943432, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1634240912}
+      addedObject: {fileID: 1634240914}
     - targetCorrespondingSourceObject: {fileID: 1000012634615528, guid: 8902cc0c7910bcd4ab3ccacb67555809,
         type: 3}
       insertIndex: -1
@@ -2075,7 +2083,7 @@ SpriteRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 1043656357}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1634240912
+--- !u!114 &1634240914
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2091,7 +2099,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:c36ded4b382c04c1ea42ec36416c3742
     m_TableEntryReference:
-      m_KeyId: 21337291612160
+      m_KeyId: 3283547472257024
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -2659,7 +2667,7 @@ SpriteRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 1043656357}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2123488595
+--- !u!114 &2123488597
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2675,7 +2683,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:c36ded4b382c04c1ea42ec36416c3742
     m_TableEntryReference:
-      m_KeyId: 21337291612160
+      m_KeyId: 3283547472257024
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
