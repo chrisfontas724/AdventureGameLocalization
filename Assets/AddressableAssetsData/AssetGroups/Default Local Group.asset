@@ -16,12 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: cdd1ed93eef364dc8ac789ed623e3cff
-  m_SerializeEntries:
-  - m_GUID: e501ab80b4f0d414c9543265a2f2c655
-    m_Address: Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/MarketCoffeeSign.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 293c886cbcb45477fbd469026bfc1efb, type: 2}
   m_SchemaSet:
